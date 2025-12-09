@@ -6,80 +6,36 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/26 17:22:05 by clouden           #+#    #+#             */
-/*   Updated: 2025/11/26 19:36:57 by clouden          ###   ########.fr       */
+/*   Updated: 2025/11/30 17:37:26 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <pthread.h>
 #include <unistd.h>
 #include <stdio.h>
+#include <stdlib.h>
 
-pthread_t tid;
-
-void eat(char *str)
+void *routine()
 {
-	printf("%s is eating\n", str);
-}
-
-void *foo(void *arg)
-{
-	printf("you have created a thread: FOO\n");
-	eat("FOO");
-	pthread_exit(NULL);
-
-	printf("This will not print\n");
-	return (NULL);
-}
-
-void *threadFunc(void *arg)
-{
-	printf("Thread function \n");
-	return ((void *)0);
-}
-
-void *thread_routine(void *arg)
-{
-	printf("New created thread\n");
-	return (arg);
-}
-
-void *bar(void *arg)
-{
-	printf("you have created thread: BAR\n");
-	eat("BAR");
-	pthread_exit(NULL);
-}
-
-void *wait_fn(void *arg)
-{
-	sleep(2);
-	printf("Done.\n");
-	return (NULL);
-}
-
-int main(void)
-{
-//	pthread_t thread_id;
-//	void *thread_result;
-
-//	pthread_create(&thread_id, NULL, thread_routine, NULL);
-//	printf("Master thread\n");
-//	pthread_join(thread_id, &thread_result);
-
-	pthread_t thread;
-
-	int err = pthread_create(&thread, NULL, wait_fn, NULL);
-	if (err != 0)
-	{
-		printf("ERROR: %d\n", err);
-		return 1;
-	}
-	printf("waiting for the thread to end...\n");
-	pthread_join(thread, NULL);
-	printf("Thread ended.\n");
-
+	printf("test from threads\n");
+	sleep(3);
+	printf("ending thread\n");
 	return (0);
-
-return (0);
 }
 
+
+int main(int ac, char *av[])
+{
+	pthread_t t1;
+	pthread_t t2;
+
+	if (pthread_create(&t1, NULL, &routine, NULL) != 0)
+		return 1;
+	if (pthread_create(&t2, NULL, &routine, NULL) != 0)
+		return 2;
+	if (pthread_join(t1, NULL) != 0)
+		return 3;
+	if (pthread_join(t2, NULL) != 0)
+		return 4;
+	return (0);
+}
