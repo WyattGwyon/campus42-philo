@@ -6,8 +6,14 @@
 long get_elapsed_time_microseconds(struct timeval start, struct timeval end)
 {
 	long res;
+	long secs;
+	long usecs;
+	long factor;
 
-	res = (end.tv_sec - start.tv_sec) * 1000000L + (end.tv_usec - start.tv_usec);
+	factor = 1000000;
+	secs = (end.tv_sec - start.tv_sec) * factor;
+	usecs = (end.tv_usec - start.tv_usec);
+	res =  secs + usecs;
 	return (res);
 }
 
@@ -18,18 +24,19 @@ void precise_usleep(long usec)
 	long elapsed;
 	long rem;
 
+	elapsed = 0;
 	gettimeofday(&start, NULL);
-	do {
+	while (elapsed < usec)
+	{
 		gettimeofday(&current, NULL);
 		elapsed = get_elapsed_time_microseconds(start, current);
 		rem = usec - elapsed;
 		if (rem > 1000)
 			usleep(rem / 2);
-	} while (elapsed < usec);
-
+	}
 }
 
-
+/*
 int main(void)
 {
 	struct timeval start;
@@ -41,17 +48,23 @@ int main(void)
 	gettimeofday(&start, NULL);
 	precise_usleep(500000);
 	gettimeofday(&end, NULL);
+
 	seconds = end.tv_sec - start.tv_sec;
 	microseconds = end.tv_usec - start.tv_usec;
 	elapsed = seconds + microseconds * 1e-6;
+
 	printf("Expected sleep duration 0.5 seconds\n");
 	printf("Actual custom sleep duration %f seconds\n", elapsed);
+
 	gettimeofday(&start, NULL);
-	usleep(500000);
+	usleep(500000)m
 	gettimeofday(&end, NULL);
+	
 	seconds = end.tv_sec - start.tv_sec;
 	microseconds = end.tv_usec - start.tv_usec;
 	elapsed = seconds + microseconds * 1e-6;
+
 	printf("Actual usleep duration %f seconds\n\n", elapsed);
 	return (0);
 }
+*/
