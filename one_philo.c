@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   one_philo.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -12,21 +12,16 @@
 
 #include "philo.h"
 
-int main(int ac, char *av[])
+void	*one_philo(void *data)
 {
-	t_table	table;
+	t_philo	*philo;
 
-	if (ac == 5 || ac == 6)
-	{
-		parse_input(&table, ac, av);
-		init_data(&table);
-		start_sim(&table);
-		//clean(&table);
-	}
-	else
-	{
-		error_exit("Invalid Input: please enter:\n"
-				"./philo 5 800 200 200 [5]");
-	}
-	return (0);
+	philo = (t_philo *)data;
+	sync_thread_start(philo->table);
+	set_long(&philo->philo_mutex, &philo->last_meal_time, gettime(MILLISECS));
+	incr_long(&philo->table->table_mutex, &philo->table->num_running_threads);
+	write_status(TAKE_FIRST_FORK, philo, DEBUG_MODE);
+	while(!sim_finished(philo->table))
+		usleep(200);
+	return (NULL);
 }

@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   sync.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -12,21 +12,27 @@
 
 #include "philo.h"
 
-int main(int ac, char *av[])
+void	sync_thread_start(t_table *table)
 {
-	t_table	table;
+	while (!get_bool(&table->table_mutex, &table->all_threads_ready))
+		;
+}
 
-	if (ac == 5 || ac == 6)
-	{
-		parse_input(&table, ac, av);
-		init_data(&table);
-		start_sim(&table);
-		//clean(&table);
-	}
-	else
-	{
-		error_exit("Invalid Input: please enter:\n"
-				"./philo 5 800 200 200 [5]");
-	}
-	return (0);
+bool	all_threads_running(t_mtx *mutex, long *threads, long *num_of_philos)
+{
+	bool ret;
+
+	ret = false;
+	safe_mutex(mutex, LOCK);
+	if (threads == num_of_philos)
+		ret = true;
+	safe_mutex(mutex, UNLOCK);
+	return (ret);
+}
+
+void	incr_long(t_mtx *mutex, long *value)
+{
+	safe_mutex(mutex, LOCK);
+	(*value)++;
+	safe_mutex(mutex, UNLOCK);
 }

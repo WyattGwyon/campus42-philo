@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   monitor.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -12,21 +12,27 @@
 
 #include "philo.h"
 
-int main(int ac, char *av[])
+void	*monitor_sim(void *data)
 {
-	t_table	table;
-
-	if (ac == 5 || ac == 6)
+	t_table	*table;
+	int		i;
+	
+	table = (t_table *)data;
+	while (!all_threads_running(&table->table_mutex,
+			&table->num_running_threads, &table->num_of_philos))
+		;
+	while (!sim_finished(table))
 	{
-		parse_input(&table, ac, av);
-		init_data(&table);
-		start_sim(&table);
-		//clean(&table);
+		i = -1;
+		while (++i < table->num_of_philos && !sim_finished(table))
+		{
+			if (die(&table->philos[i]))
+			{
+				set_bool(&table->table_mutex, &table->end_sim, true);
+				write_status(DEAD, &table->philos[i], DEBUG_MODE);
+			}
+		}
 	}
-	else
-	{
-		error_exit("Invalid Input: please enter:\n"
-				"./philo 5 800 200 200 [5]");
-	}
-	return (0);
+	
+	return (NULL);
 }

@@ -22,7 +22,16 @@ CFLAGS 	= 	-Wall -Wextra -Werror -g3
 NAME	=	philo
 
 SRCS	= 	main.c \
+			parser.c \
+			init.c \
 			utils.c \
+			safe_clean.c \
+			sim.c \
+			getters_setters.c \
+			sync.c \
+			time.c \
+			monitor.c \
+			one_philo.c \
 
 OBJS	= $(SRCS:%.c=%.o)
 

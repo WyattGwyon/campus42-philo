@@ -1,0 +1,2122 @@
+[0;34m╔════════════════════════════════════════════╗[0m
+[0;34m║    Philosophers Validation Tester          ║[0m
+[0;34m║         (Parallel Execution)               ║[0m
+[0;34m╚════════════════════════════════════════════╝[0m
+
+Running [0;34m30[0m tests (max [0;34m5[0m in parallel)...
+
+
+
+
+
+
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   0%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [............................]   0%[K
+[1;33m[[0;36mTest 3[1;33m][0m Single philosopher should die (no second fork... [............................]   0%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [............................]   0%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   0%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [............................]   0%[K
+[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [............................]   0%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   0%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [............................]   0%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [............................]   0%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [............................]   0%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   0%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [............................]   0%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [............................]   0%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [............................]   0%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   0%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [............................]   0%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [............................]   0%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [............................]   0%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   3%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=...........................]   4%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [=========...................]  33%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [=========...................]  33%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   3%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=...........................]   4%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [=========...................]  33%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [=========...................]  33%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   3%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=...........................]   4%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [=========...................]  33%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [=========...................]  33%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   3%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=...........................]   4%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [=========...................]  33%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [=========...................]  33%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   3%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=...........................]   4%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [=========...................]  33%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [=========...................]  33%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   3%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=...........................]   4%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [=========...................]  33%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [=========...................]  33%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   3%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=...........................]   4%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [=========...................]  33%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [=========...................]  33%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [............................]   3%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=...........................]   4%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [=========...................]  33%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [=========...................]  33%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==..........................]   8%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [==================..........]  66%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [==================..........]  66%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [============================] 100%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==..........................]   8%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [==================..........]  66%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [==================..........]  66%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [============================] 100%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==..........................]   8%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [==================..........]  66%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [==================..........]  66%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [============================] 100%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==..........................]   8%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [==================..........]  66%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [==================..........]  66%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [============================] 100%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==..........................]   8%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [==================..........]  66%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [==================..........]  66%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [============================] 100%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==..........................]   8%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [==================..........]  66%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [==================..........]  66%[K
+[1;33m[[0;36mTest 6[1;33m][0m Four philosophers - tight timing, death expec... [============================] 100%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==..........................]   8%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [==================..........]  66%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [==================..........]  66%[K
+[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==..........................]   8%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [==================..........]  66%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [==================..........]  66%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==..........................]  10%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===.........................]  12%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [============================] 100%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [============================] 100%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==..........................]  10%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===.........................]  12%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [============================] 100%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [============================] 100%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==..........................]  10%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===.........................]  12%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [============================] 100%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [============================] 100%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==..........................]  10%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===.........................]  12%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [============================] 100%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [============================] 100%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==..........................]  10%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===.........................]  12%[K
+[1;33m[[0;36mTest 4[1;33m][0m Two philosophers - should survive... [============================] 100%[K
+[1;33m[[0;36mTest 5[1;33m][0m Two philosophers - perfect alternation, no de... [============================] 100%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==..........................]  10%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===.........................]  12%[K
+[K
+[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==..........................]  10%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===.........................]  12%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [==============..............]  50%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [............................]   0%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==..........................]  10%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===.........................]  12%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [==============..............]  50%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [............................]   0%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [============================] 100%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [=========...................]  33%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [============================] 100%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [=========...................]  33%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [============================] 100%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [=========...................]  33%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [============================] 100%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [=========...................]  33%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [============================] 100%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [=========...................]  33%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [============================] 100%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [=========...................]  33%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [============================] 100%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [=========...................]  33%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 7[1;33m][0m Two philosophers - very tight (310ms die, 200... [============================] 100%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [=========...................]  33%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====.......................]  20%[K
+[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====........................]  16%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======......................]  24%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======......................]  24%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======......................]  24%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======......................]  24%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======......................]  24%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======......................]  24%[K
+[1;33m[[0;36mTest 8[1;33m][0m Three philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 9[1;33m][0m Four philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======......................]  24%[K
+[K
+[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======......................]  23%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======.....................]  28%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [=========...................]  33%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [............................]   0%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======......................]  23%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======.....................]  28%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [............................]   0%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======......................]  23%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======.....................]  28%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [............................]   0%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======......................]  23%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======.....................]  28%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [............................]   0%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======......................]  23%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======.....................]  28%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [............................]   0%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======......................]  23%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======.....................]  28%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [............................]   0%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======......................]  23%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======.....................]  28%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [............................]   0%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======......................]  23%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======.....................]  28%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [............................]   0%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======......................]  23%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======.....................]  28%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [==================..........]  66%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [............................]   0%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========....................]  32%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [=========...................]  33%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========....................]  32%[K
+[1;33m[[0;36mTest 10[1;33m][0m Five philosophers - exact minimum timing... [============================] 100%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [=========...................]  33%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========....................]  32%[K
+[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [=========...................]  33%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [==============..............]  50%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========....................]  32%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [=========...................]  33%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [==============..............]  50%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========....................]  32%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [=========...................]  33%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [==============..............]  50%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========....................]  32%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [=========...................]  33%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [==============..............]  50%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========....................]  32%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [=========...................]  33%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [==============..............]  50%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========....................]  32%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [=========...................]  33%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [==============..............]  50%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========....................]  30%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [==================..........]  66%[K
+[1;33m[[0;36mTest 12[1;33m][0m Four philosophers - impossible timing (eat > ... [============================] 100%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========....................]  30%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [==================..........]  66%[K
+[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========....................]  30%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [==================..........]  66%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========....................]  30%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [==================..........]  66%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========....................]  30%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [==================..........]  66%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========....................]  30%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [==================..........]  66%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========....................]  30%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [==================..........]  66%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========....................]  30%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [==================..........]  66%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========....................]  30%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 11[1;33m][0m Three philosophers - should die at ~500ms... [==================..........]  66%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===========.................]  40%[K
+[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============................]  44%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [============================] 100%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============................]  44%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [============================] 100%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============................]  44%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [============================] 100%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============................]  44%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [============================] 100%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============................]  44%[K
+[1;33m[[0;36mTest 13[1;33m][0m Three philosophers - odd number edge case... [============================] 100%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============................]  44%[K
+[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============................]  44%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============................]  44%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========..................]  36%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============................]  44%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [============================] 100%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [=========...................]  33%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=============...............]  48%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [============================] 100%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==..........................]   8%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=============...............]  48%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [============================] 100%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==..........................]   8%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=============...............]  48%[K
+[1;33m[[0;36mTest 14[1;33m][0m Five philosophers - odd number edge case... [============================] 100%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==..........................]   8%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=============...............]  48%[K
+[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==..........................]   8%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=============...............]  48%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==..........................]   8%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=============...............]  48%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==..........................]   8%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=============...............]  48%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==..........................]   8%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=============...............]  48%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [==================..........]  66%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==..........................]   8%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============................]  43%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==============..............]  52%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [============================] 100%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [====........................]  16%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==..........................]   7%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============................]  43%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==============..............]  52%[K
+[1;33m[[0;36mTest 15[1;33m][0m Seven philosophers - odd number edge case... [============================] 100%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [====........................]  16%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==..........................]   7%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============................]  43%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==============..............]  52%[K
+[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [====........................]  16%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==..........................]   7%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============................]  43%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==============..............]  52%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [====........................]  16%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==..........................]   7%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============................]  43%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==============..............]  52%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [====........................]  16%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==..........................]   7%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============................]  43%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==============..............]  52%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [====........................]  16%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==..........................]   7%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============................]  43%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==============..............]  52%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [====........................]  16%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==..........................]   7%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============................]  43%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==============..............]  52%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [====........................]  16%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==..........................]   7%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=============...............]  46%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======.....................]  25%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [====........................]  15%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=============...............]  46%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======.....................]  25%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [====........................]  15%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=============...............]  46%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======.....................]  25%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [====........................]  15%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=============...............]  46%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======.....................]  25%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [====........................]  15%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=============...............]  46%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======.....................]  25%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [====........................]  15%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=============...............]  46%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======.....................]  25%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [====........................]  15%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=============...............]  46%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======.....................]  25%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [====........................]  15%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=============...............]  46%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======.....................]  25%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [====........................]  15%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=============...............]  46%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======.....................]  25%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [======......................]  23%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===.........................]  13%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  50%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [================............]  60%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [======......................]  23%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===.........................]  13%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  50%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [================............]  60%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [======......................]  23%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===.........................]  13%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  50%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [================............]  60%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [======......................]  23%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===.........................]  13%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  50%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [================............]  60%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [======......................]  23%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===.........................]  13%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  50%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [================............]  60%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [======......................]  23%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===.........................]  13%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  50%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [================............]  60%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [======......................]  23%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===.........................]  13%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  50%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [================............]  60%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [======......................]  23%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===.........................]  13%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  53%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=================...........]  64%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [===========.................]  41%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [========....................]  30%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=====.......................]  20%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  53%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=================...........]  64%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [===========.................]  41%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [========....................]  30%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=====.......................]  20%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  53%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=================...........]  64%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [===========.................]  41%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [========....................]  30%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=====.......................]  20%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  53%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=================...........]  64%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [===========.................]  41%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [========....................]  30%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=====.......................]  20%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  53%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=================...........]  64%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [===========.................]  41%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [========....................]  30%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=====.......................]  20%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  53%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=================...........]  64%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [===========.................]  41%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [========....................]  30%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=====.......................]  20%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  53%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=================...........]  64%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [===========.................]  41%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [========....................]  30%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=====.......................]  20%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  53%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=================...........]  64%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [===========.................]  41%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [========....................]  30%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=====.......................]  20%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==============..............]  53%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=================...........]  64%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [===========.................]  41%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [========....................]  30%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=====.......................]  20%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===================.........]  68%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==============..............]  50%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==========..................]  38%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=======.....................]  26%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===================.........]  68%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==============..............]  50%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==========..................]  38%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=======.....................]  26%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===================.........]  68%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==============..............]  50%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==========..................]  38%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=======.....................]  26%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===================.........]  68%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==============..............]  50%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==========..................]  38%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=======.....................]  26%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===================.........]  68%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==============..............]  50%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==========..................]  38%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=======.....................]  26%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===================.........]  68%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==============..............]  50%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==========..................]  38%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=======.....................]  26%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===================.........]  68%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==============..............]  50%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==========..................]  38%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=======.....................]  26%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===============.............]  56%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [===================.........]  68%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==============..............]  50%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [==========..................]  38%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=======.....................]  26%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [================............]  60%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====================........]  72%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [================............]  58%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============................]  46%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [================............]  60%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====================........]  72%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [================............]  58%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============................]  46%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [================............]  60%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====================........]  72%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [================............]  58%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============................]  46%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [================............]  60%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====================........]  72%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [================............]  58%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============................]  46%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [================............]  60%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====================........]  72%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [================............]  58%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============................]  46%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [================............]  60%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====================........]  72%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [================............]  58%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============................]  46%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [================............]  60%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====================........]  72%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [================............]  58%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============................]  46%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [================............]  60%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====================........]  72%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [================............]  58%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============................]  46%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [================............]  60%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [====================........]  72%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============................]  46%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=================...........]  63%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===============.............]  53%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===========.................]  40%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=================...........]  63%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===============.............]  53%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===========.................]  40%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=================...........]  63%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===============.............]  53%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===========.................]  40%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=================...........]  63%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===============.............]  53%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===========.................]  40%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=================...........]  63%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===============.............]  53%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===========.................]  40%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=================...........]  63%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===============.............]  53%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===========.................]  40%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=================...........]  63%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===============.............]  53%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [===========.................]  40%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==================..........]  66%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=================...........]  61%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=============...............]  46%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==================..........]  66%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=====================.......]  75%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=================...........]  61%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=============...............]  46%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==================..........]  66%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=====================.......]  75%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=================...........]  61%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=============...............]  46%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==================..........]  66%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=====================.......]  75%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=================...........]  61%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=============...............]  46%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==================..........]  66%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=====================.......]  75%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=================...........]  61%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=============...............]  46%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==================..........]  66%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=====================.......]  75%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=================...........]  61%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=============...............]  46%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==================..........]  66%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=====================.......]  75%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=================...........]  61%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=============...............]  46%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==================..........]  66%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=====================.......]  75%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=================...........]  61%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=============...............]  46%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==================..........]  66%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=====================.......]  75%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=================...........]  61%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [=============...............]  46%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===================.........]  70%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======================.....]  84%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======================.....]  83%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===================.........]  69%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==============..............]  53%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===================.........]  70%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======================.....]  84%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======================.....]  83%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===================.........]  69%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==============..............]  53%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===================.........]  70%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======================.....]  84%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======================.....]  83%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===================.........]  69%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==============..............]  53%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===================.........]  70%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======================.....]  84%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======================.....]  83%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===================.........]  69%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==============..............]  53%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===================.........]  70%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======================.....]  84%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======================.....]  83%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===================.........]  69%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==============..............]  53%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===================.........]  70%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======================.....]  84%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======================.....]  83%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===================.........]  69%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==============..............]  53%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===================.........]  70%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======================.....]  84%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======================.....]  83%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===================.........]  69%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==============..............]  53%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===================.........]  70%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=======================.....]  84%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=======================.....]  83%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [===================.........]  69%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==============..............]  53%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====================........]  73%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========================....]  88%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========================...]  91%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=====================.......]  76%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [================............]  60%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====================........]  73%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========================....]  88%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========================...]  91%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=====================.......]  76%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [================............]  60%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====================........]  73%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========================....]  88%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========================...]  91%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=====================.......]  76%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [================............]  60%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====================........]  73%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========================....]  88%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========================...]  91%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=====================.......]  76%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [================............]  60%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====================........]  73%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========================....]  88%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========================...]  91%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=====================.......]  76%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [================............]  60%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====================........]  73%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========================....]  88%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========================...]  91%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=====================.......]  76%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [================............]  60%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====================........]  73%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========================....]  88%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========================...]  91%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=====================.......]  76%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [================............]  60%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [====================........]  73%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========================....]  88%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [=========================...]  91%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=====================.......]  76%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [================............]  60%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [========================....]  88%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=======================.....]  84%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [================............]  60%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=========================...]  92%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=======================.....]  84%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=========================...]  92%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=======================.....]  84%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=========================...]  92%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=======================.....]  84%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=========================...]  92%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=======================.....]  84%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=========================...]  92%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=======================.....]  84%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=========================...]  92%[K
+[1;33m[[0;36mTest 16[1;33m][0m Two philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=======================.....]  84%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=====================.......]  76%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [=========================...]  92%[K
+[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=======================.....]  84%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========================..]  96%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=========================...]  92%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========================..]  96%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=========================...]  92%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========================..]  96%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=========================...]  92%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========================..]  96%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=========================...]  92%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========================..]  96%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=========================...]  92%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========================..]  96%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=========================...]  92%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========================..]  96%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=========================...]  92%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========================..]  96%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [=========================...]  92%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [======================......]  80%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [==========================..]  96%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======================.....]  83%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============================] 100%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======================.....]  83%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============================] 100%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======================.....]  83%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============================] 100%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======================.....]  83%[K
+[1;33m[[0;36mTest 2[1;33m][0m Long test - 30 meals... [============================] 100%[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======================.....]  83%[K
+[K
+[1;33m[[0;36mTest 17[1;33m][0m Three philosophers - 5 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=...........................]   6%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======================.....]  83%[K
+[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=...........................]   6%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======================.....]  83%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=...........................]   6%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [............................]   0%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=======================.....]  83%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=...........................]   6%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [............................]   0%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========================....]  86%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===.........................]  13%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==..........................]   9%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==..........................]   9%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========================....]  86%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===.........................]  13%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==..........................]   9%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==..........................]   9%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========================....]  86%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===.........................]  13%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==..........................]   9%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==..........................]   9%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========================....]  86%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===.........................]  13%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==..........................]   9%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==..........................]   9%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========================....]  86%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===.........................]  13%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==..........................]   9%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==..........................]   9%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========================....]  86%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===.........................]  13%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==..........................]   9%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==..........................]   9%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========================....]  86%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===.........................]  13%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==..........................]   9%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==..........................]   9%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [========================....]  86%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===.........................]  13%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==..........................]   9%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==..........................]   9%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========================...]  90%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=====.......................]  20%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=====.......................]  18%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=====.......................]  18%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========================...]  90%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=====.......................]  20%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=====.......................]  18%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=====.......................]  18%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========================...]  90%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=====.......................]  20%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=====.......................]  18%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=====.......................]  18%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========================...]  90%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=====.......................]  20%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=====.......................]  18%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=====.......................]  18%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========================...]  90%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=====.......................]  20%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=====.......................]  18%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=====.......................]  18%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========================...]  90%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=====.......................]  20%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=====.......................]  18%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=====.......................]  18%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========================...]  90%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=====.......................]  20%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=====.......................]  18%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=====.......................]  18%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========================...]  90%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=====.......................]  20%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=====.......................]  18%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=====.......................]  18%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [=========================...]  90%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=====.......................]  20%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=====.......................]  18%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=====.......................]  18%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========================..]  93%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=======.....................]  26%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=======.....................]  27%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========================..]  93%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=======.....................]  26%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=======.....................]  27%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========================..]  93%[K
+[1;33m[[0;36mTest 18[1;33m][0m Four philosophers - 10 meals each... [============================] 100%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=======.....................]  26%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=======.....................]  27%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========================..]  93%[K
+[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=======.....................]  26%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=======.....................]  27%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=======.....................]  26%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=======.....................]  26%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=======.....................]  26%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [==========================..]  93%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=======.....................]  26%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=======.....................]  27%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========================.]  96%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========================.]  96%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========================.]  96%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========================.]  96%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========================.]  96%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========================.]  96%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========================.]  96%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [===========================.]  96%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=========...................]  33%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [==========..................]  36%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============================] 100%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===========.................]  40%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============================] 100%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===========.................]  40%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============================] 100%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===========.................]  40%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============================] 100%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===========.................]  40%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 1[1;33m][0m Long test - 50 meals... [============================] 100%[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===========.................]  40%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [==================..........]  66%[K
+[5A[K
+[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===========.................]  40%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===========.................]  40%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [===========.................]  40%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============................]  45%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=============...............]  46%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=============...............]  46%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [============================] 100%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=============...............]  46%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [============================] 100%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=============...............]  46%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [============================] 100%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=============...............]  46%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [============================] 100%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=============...............]  46%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 22[1;33m][0m Stress: 100 philosophers... [============================] 100%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=============...............]  46%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [===============.............]  54%[K
+[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=============...............]  46%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [=========...................]  33%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [=============...............]  46%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [===============.............]  54%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [=========...................]  33%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==============..............]  53%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==============..............]  53%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==============..............]  53%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==============..............]  53%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==============..............]  53%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==============..............]  53%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==============..............]  53%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==============..............]  53%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=================...........]  63%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [================............]  60%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [============================] 100%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [================............]  60%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [============================] 100%[K
+[1;33m[[0;36mTest 24[1;33m][0m Stress: 199 philosophers edge case... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [================............]  60%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [============================] 100%[K
+[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [================............]  60%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [============================] 100%[K
+[1;33m[[0;36mTest 25[1;33m][0m Stress: 200 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [================............]  60%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [============================] 100%[K
+[1;33m[[0;36mTest 25[1;33m][0m Stress: 200 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [================............]  60%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [============================] 100%[K
+[1;33m[[0;36mTest 25[1;33m][0m Stress: 200 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [================............]  60%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 23[1;33m][0m Stress: 150 philosophers... [============================] 100%[K
+[1;33m[[0;36mTest 25[1;33m][0m Stress: 200 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [================............]  60%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [====================........]  72%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [====================........]  72%[K
+[K
+[1;33m[[0;36mTest 25[1;33m][0m Stress: 200 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [================............]  60%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [====================........]  72%[K
+[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [............................]   0%[K
+[1;33m[[0;36mTest 27[1;33m][0m Stress: 200 philosophers fast pace... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [............................]   0%[K
+[1;33m[[0;36mTest 27[1;33m][0m Stress: 200 philosophers fast pace... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [............................]   0%[K
+[1;33m[[0;36mTest 27[1;33m][0m Stress: 200 philosophers fast pace... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [............................]   0%[K
+[1;33m[[0;36mTest 27[1;33m][0m Stress: 200 philosophers fast pace... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [............................]   0%[K
+[1;33m[[0;36mTest 27[1;33m][0m Stress: 200 philosophers fast pace... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [............................]   0%[K
+[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [............................]   0%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==================..........]  66%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [======================......]  81%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [............................]   0%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [====================........]  73%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [=========================...]  90%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=...........................]   6%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [=========...................]  33%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [======================......]  80%[K
+[1;33m[[0;36mTest 20[1;33m][0m Two philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [======================......]  80%[K
+[K
+[1;33m[[0;36mTest 21[1;33m][0m Four philosophers - 1 meal only... [============================] 100%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [==================..........]  66%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [======================......]  80%[K
+[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===.........................]  13%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [==================..........]  66%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [============================] 100%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [............................]   0%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [============================] 100%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [............................]   0%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [============================] 100%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [............................]   0%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [============================] 100%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [............................]   0%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [============================] 100%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [............................]   0%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [============================] 100%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [............................]   0%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=====.......................]  20%[K
+[1;33m[[0;36mTest 28[1;33m][0m Tight window - 400ms die, 200ms cycle... [============================] 100%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [............................]   0%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [========================....]  86%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=====.......................]  20%[K
+[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [............................]   0%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [............................]   0%[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [=========...................]  33%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [=========...................]  33%[K
+[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [=========...................]  33%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [=========...................]  33%[K
+[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [=========...................]  33%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [=========...................]  33%[K
+[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [=========...................]  33%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [=========...................]  33%[K
+[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [=========...................]  33%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [=========...................]  33%[K
+[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [=========...................]  33%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [=========...................]  33%[K
+[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [=========...................]  33%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [=========...................]  33%[K
+[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [=========...................]  33%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [=========...................]  33%[K
+[K
+[5A[1;33m[[0;36mTest 19[1;33m][0m Five philosophers - 7 meals each... [==========================..]  93%[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=======.....................]  26%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [=========...................]  33%[K
+[K
+[5A[K
+[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [==================..........]  66%[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [==================..........]  66%[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [==================..........]  66%[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [==================..........]  66%[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [==================..........]  66%[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [==================..........]  66%[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [==================..........]  66%[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=========...................]  33%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [==================..........]  66%[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===========.................]  40%[K
+[1;33m[[0;36mTest 29[1;33m][0m Tight window - 5 philosophers... [==================..........]  66%[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [============================] 100%[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===========.................]  40%[K
+[K
+[1;33m[[0;36mTest 30[1;33m][0m Tight window - 6 philosophers... [============================] 100%[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===========.................]  40%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===========.................]  40%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===========.................]  40%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===========.................]  40%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===========.................]  40%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===========.................]  40%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [===========.................]  40%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=============...............]  46%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=============...............]  46%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=============...............]  46%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=============...............]  46%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=============...............]  46%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=============...............]  46%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=============...............]  46%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=============...............]  46%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [=============...............]  46%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==============..............]  53%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==============..............]  53%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==============..............]  53%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==============..............]  53%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==============..............]  53%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==============..............]  53%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==============..............]  53%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==============..............]  53%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==============..............]  53%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==============..............]  53%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [================............]  60%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [================............]  60%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [================............]  60%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [================............]  60%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [================............]  60%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [================............]  60%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [================............]  60%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [================............]  60%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==================..........]  66%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==================..........]  66%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==================..........]  66%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==================..........]  66%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==================..........]  66%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==================..........]  66%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==================..........]  66%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==================..........]  66%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==================..........]  66%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [====================........]  73%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [====================........]  73%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [====================........]  73%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [====================........]  73%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [====================........]  73%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [====================........]  73%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [====================........]  73%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [====================........]  73%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [====================........]  73%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [====================........]  73%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [======================......]  80%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [======================......]  80%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [======================......]  80%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [======================......]  80%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [======================......]  80%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [======================......]  80%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [======================......]  80%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [======================......]  80%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [========================....]  86%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [========================....]  86%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [========================....]  86%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [========================....]  86%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [========================....]  86%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [========================....]  86%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [========================....]  86%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [========================....]  86%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [========================....]  86%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [========================....]  86%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==========================..]  93%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==========================..]  93%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==========================..]  93%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==========================..]  93%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==========================..]  93%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==========================..]  93%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==========================..]  93%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==========================..]  93%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [==========================..]  93%[K
+[K
+[K
+[K
+[K
+[5A[1;33m[[0;36mTest 26[1;33m][0m Stress: 200 philosophers with 10 meals... [============================] 100%[K
+[K
+[K
+[K
+[K
+[5A[K
+[K
+[K
+[K
+[K
+
+[0;34m╔════════════════════════════════════════════╗[0m
+[0;34m║              Test Results                  ║[0m
+[0;34m╚════════════════════════════════════════════╝[0m
+
+[0;31m❌ Test 1:[0m Long test - 50 meals
+   [0;90mTimeout (deadlock or infinite loop)[0m
+[0;31m❌ Test 2:[0m Long test - 30 meals
+   [0;90mTimeout (deadlock or infinite loop)[0m
+[0;31m❌ Test 3:[0m Single philosopher should die (no second fork)
+   [0;90mProgram crashed (exit code 1)[0m
+[0;32m✅ Test 4:[0m Two philosophers - should survive
+[0;32m✅ Test 5:[0m Two philosophers - perfect alternation, no death expected
+[0;31m❌ Test 6:[0m Four philosophers - tight timing, death expected
+   [0;90mNo philosopher died (expected death)[0m
+[0;31m❌ Test 7:[0m Two philosophers - very tight (310ms die, 200ms eat)
+   [0;90mNo philosopher died (expected death)[0m
+[0;32m✅ Test 8:[0m Three philosophers - exact minimum timing
+[0;32m✅ Test 9:[0m Four philosophers - exact minimum timing
+[0;32m✅ Test 10:[0m Five philosophers - exact minimum timing
+[0;31m❌ Test 11:[0m Three philosophers - should die at ~500ms
+   [0;90mNo philosopher died (expected death)[0m
+[0;31m❌ Test 12:[0m Four philosophers - impossible timing (eat > die)
+   [0;90mNo philosopher died (expected death)[0m
+[0;32m✅ Test 13:[0m Three philosophers - odd number edge case
+[0;32m✅ Test 14:[0m Five philosophers - odd number edge case
+[0;32m✅ Test 15:[0m Seven philosophers - odd number edge case
+[0;31m❌ Test 16:[0m Two philosophers - 5 meals each
+   [0;90mTimeout (deadlock or infinite loop)[0m
+[0;31m❌ Test 17:[0m Three philosophers - 5 meals each
+   [0;90mTimeout (deadlock or infinite loop)[0m
+[0;31m❌ Test 18:[0m Four philosophers - 10 meals each
+   [0;90mTimeout (deadlock or infinite loop)[0m
+[0;31m❌ Test 19:[0m Five philosophers - 7 meals each
+   [0;90mTimeout (deadlock or infinite loop)[0m
+[0;31m❌ Test 20:[0m Two philosophers - 1 meal only
+   [0;90mTimeout (deadlock or infinite loop)[0m
+[0;31m❌ Test 21:[0m Four philosophers - 1 meal only
+   [0;90mTimeout (deadlock or infinite loop)[0m
+[0;32m✅ Test 22:[0m Stress: 100 philosophers
+[0;32m✅ Test 23:[0m Stress: 150 philosophers
+[0;31m❌ Test 24:[0m Stress: 199 philosophers edge case
+   [0;90mProgram crashed (exit code 134)[0m
+[0;31m❌ Test 25:[0m Stress: 200 philosophers
+   [0;90mProgram crashed (exit code 134)[0m
+[0;32m✅ Test 26:[0m Stress: 200 philosophers with 10 meals
+[0;31m❌ Test 27:[0m Stress: 200 philosophers fast pace
+   [0;90mProgram crashed (exit code 134)[0m
+[0;32m✅ Test 28:[0m Tight window - 400ms die, 200ms cycle
+[0;32m✅ Test 29:[0m Tight window - 5 philosophers
+[0;32m✅ Test 30:[0m Tight window - 6 philosophers
+
+[0;34m╔════════════════════════════════════════════╗[0m
+[0;34m║              Summary                       ║[0m
+[0;34m╚════════════════════════════════════════════╝[0m
+Total:  [0;34m30[0m
+[0;32mPassed: 14[0m
+[0;31mFailed: 16[0m
+
+[0;31m❌ Some tests failed[0m

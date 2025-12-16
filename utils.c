@@ -12,42 +12,54 @@
 
 #include "philo.h"
 
-int	ft_isdigit(int c)
+void error_exit(char *error)
 {
-	return (c >= '0' && c <= '9');
+	printf("%s\n", error);
+	exit(EXIT_FAILURE);
 }
 
-__int128_t	ft_atol(const char *str)
+void write_status_debug(t_philo_status status, t_philo *philo, long elapsed)
 {
-	int			sign;
-	__int128_t	num;
-
-	sign = 1;
-	num = 0;
-	if (*str == '\0')
-		return (0);
-	while (*str == ' ' || (*str >= '\t' && *str <= '\r'))
-		str++;
-	if (*str == '-' || *str == '+')
-	{
-		if (*str == '-')
-			sign = -1;
-		str++;
-	}
-	while (ft_isdigit(*str))
-	{
-		num = num * 10 + (*str - '0');
-		str++;
-	}
-	return (num * sign);
+	if (TAKE_FIRST_FORK == status && !sim_finished(philo->table))
+		printf("[%-6ld] %d has taken 1st fork"
+				"\t\tno %d\n", elapsed, philo->id, philo->first_fork->fork_id);
+	if (TAKE_SECOND_FORK == status && !sim_finished(philo->table))
+		printf("[%-6ld] %d has taken 2nd fork"
+				"\t\tno %d\n", elapsed, philo->id, philo->second_fork->fork_id);
+	else if (status == EATING && !sim_finished(philo->table))
+		printf("[%-6ld] %d is eating"
+				"\t\t\tcnt %ld\n", elapsed, philo->id, philo->meals_eaten);
+	else if (status == SLEEPING && !sim_finished(philo->table))
+		printf("[%-6ld] %d is sleeping\n", elapsed, philo->id);
+	else if (status == THINKING && !sim_finished(philo->table))
+		printf("[%-6ld] %d is thinking\n", elapsed, philo->id);
+	else if (status == DEAD && !sim_finished(philo->table))
+		printf("[%-6ld] %d died\n", elapsed, philo->id);
 }
 
-void init_table(char *av[], t_table *table)
-{	
-	table->num_of_philos = ft_atol(av[1]);
-	table->time_to_die = ft_atol(av[2]);
-	table->time_to_eat = ft_atol(av[3]);
-	table->time_to_sleep = ft_atol(av[4]);
-	table->must_eat = 0;
+void write_status(t_philo_status status, t_philo *philo, bool debug)
+{
+	long	elapsed;
 
+	elapsed = gettime(MILLISECS) - philo->table->sim_start_time;
+	if (philo->full)
+		return ;
+	safe_mutex(&philo->table->write_mutex, LOCK);
+	if (debug)
+		write_status_debug(status, philo, elapsed);
+	else 
+	{
+		if ((TAKE_FIRST_FORK == status || TAKE_SECOND_FORK == status)
+			&& !sim_finished(philo->table))
+			printf("[%ld] %d has taken a fork\n", elapsed, philo->id);
+		else if (status == EATING && !sim_finished(philo->table))
+			printf("[%ld] %d is eating\n", elapsed, philo->id);
+		else if (status == SLEEPING && !sim_finished(philo->table))
+			printf("[%ld] %d is sleeping\n", elapsed, philo->id);
+		else if (status == THINKING && !sim_finished(philo->table))
+			printf("[%ld] %d is thinking\n", elapsed, philo->id);
+		else if (status == DEAD && !sim_finished(philo->table))
+			printf("[%ld] %d died\n", elapsed, philo->id);
+	}
+	safe_mutex(&philo->table->write_mutex, UNLOCK);
 }
