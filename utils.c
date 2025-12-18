@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:35:37 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/10 19:46:01 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/18 17:51:24 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,20 +21,20 @@ void error_exit(char *error)
 void write_status_debug(t_philo_status status, t_philo *philo, long elapsed)
 {
 	if (TAKE_FIRST_FORK == status && !sim_finished(philo->table))
-		printf("[%-6ld] %d has taken 1st fork"
+		printf("%-6ld %d has taken 1st fork"
 				"\t\tno %d\n", elapsed, philo->id, philo->first_fork->fork_id);
 	if (TAKE_SECOND_FORK == status && !sim_finished(philo->table))
-		printf("[%-6ld] %d has taken 2nd fork"
+		printf("%-6ld %d has taken 2nd fork"
 				"\t\tno %d\n", elapsed, philo->id, philo->second_fork->fork_id);
 	else if (status == EATING && !sim_finished(philo->table))
-		printf("[%-6ld] %d is eating"
+		printf("%-6ld %d is eating"
 				"\t\t\tcnt %ld\n", elapsed, philo->id, philo->meals_eaten);
 	else if (status == SLEEPING && !sim_finished(philo->table))
-		printf("[%-6ld] %d is sleeping\n", elapsed, philo->id);
+		printf("%-6ld %d is sleeping\n", elapsed, philo->id);
 	else if (status == THINKING && !sim_finished(philo->table))
-		printf("[%-6ld] %d is thinking\n", elapsed, philo->id);
+		printf("%-6ld %d is thinking\n", elapsed, philo->id);
 	else if (status == DEAD)
-		printf("[%-6ld] %d died\n", elapsed, philo->id);
+		printf("%-6ld %d died\n", elapsed, philo->id);
 }
 
 void write_status(t_philo_status status, t_philo *philo, bool debug)

@@ -6,7 +6,7 @@
 #    By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/10 18:40:58 by clouden           #+#    #+#              #
-#    Updated: 2025/12/11 12:17:10 by clouden          ###   ########.fr        #
+#    Updated: 2025/12/18 18:49:41 by clouden          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ BLUE    =	\033[0;34m
 
 # Project Variables
 CC		= 	cc
-CFLAGS 	= 	-Wall -Wextra -Werror -g3
+CFLAGS 	= 	-Wall -Wextra -Werror -g3 -fsanitize=address
 NAME	=	philo
 
 SRCS	= 	main.c \
