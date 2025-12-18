@@ -22,7 +22,7 @@
 # include <limits.h>
 # include <errno.h>
 
-# define DEBUG_MODE 1
+# define DEBUG_MODE 0
 
 typedef pthread_mutex_t	t_mtx;
 
@@ -99,11 +99,12 @@ void	parse_input(t_table *table, int ac, char *av[]);
 // untils.c
 void	error_exit(char *error);
 void	write_status(t_philo_status status, t_philo *philo, bool debug);
+void	clean(t_table *table);
 
 // init.c
 void	init_data(t_table *table);
 
-// safe_clean.c
+// safe_utils.c
 void	*safe_malloc(size_t bytes);
 void	mutex_error(int status, t_mtx_thread mtx_thread);
 void	safe_mutex(t_mtx *mutex, t_mtx_thread mtx_thr);
@@ -113,6 +114,7 @@ void	safe_thread(pthread_t *thread, void *(func)(void *),
 
 // sim.c
 bool	die(t_philo *philo);
+void	think(t_philo *philo, bool start);
 void	start_sim(t_table *table);
 
 // getters_setters.c
@@ -124,8 +126,9 @@ bool	sim_finished(t_table *table);
 
 // sync.c
 void	sync_thread_start(t_table *table);
-bool	all_threads_running(t_mtx *mutex, long *threads, long *num_of_philos);
+bool	all_threads_running(t_mtx *mutex, long *threads, long num_of_philos);
 void	incr_long(t_mtx *mutex, long *value);
+void	desync_philos(t_philo *philo);
 
 // time.c
 long	gettime(t_time time_code);

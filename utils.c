@@ -33,7 +33,7 @@ void write_status_debug(t_philo_status status, t_philo *philo, long elapsed)
 		printf("[%-6ld] %d is sleeping\n", elapsed, philo->id);
 	else if (status == THINKING && !sim_finished(philo->table))
 		printf("[%-6ld] %d is thinking\n", elapsed, philo->id);
-	else if (status == DEAD && !sim_finished(philo->table))
+	else if (status == DEAD)
 		printf("[%-6ld] %d died\n", elapsed, philo->id);
 }
 
@@ -51,15 +51,39 @@ void write_status(t_philo_status status, t_philo *philo, bool debug)
 	{
 		if ((TAKE_FIRST_FORK == status || TAKE_SECOND_FORK == status)
 			&& !sim_finished(philo->table))
-			printf("[%ld] %d has taken a fork\n", elapsed, philo->id);
+			printf("%ld %d has taken a fork\n", elapsed, philo->id);
 		else if (status == EATING && !sim_finished(philo->table))
-			printf("[%ld] %d is eating\n", elapsed, philo->id);
+			printf("%ld %d is eating\n", elapsed, philo->id);
 		else if (status == SLEEPING && !sim_finished(philo->table))
-			printf("[%ld] %d is sleeping\n", elapsed, philo->id);
+			printf("%ld %d is sleeping\n", elapsed, philo->id);
 		else if (status == THINKING && !sim_finished(philo->table))
-			printf("[%ld] %d is thinking\n", elapsed, philo->id);
-		else if (status == DEAD && !sim_finished(philo->table))
-			printf("[%ld] %d died\n", elapsed, philo->id);
+			printf("%ld %d is thinking\n", elapsed, philo->id);
+		else if (status == DEAD)
+			printf("%ld %d died\n", elapsed, philo->id);
 	}
 	safe_mutex(&philo->table->write_mutex, UNLOCK);
 }
+
+
+
+void	clean(t_table *table)
+{
+	t_philo	*philo;
+	t_fork	*fork;
+	int		i;
+
+	i = -1;
+	while (++i < table->num_of_philos)
+	{
+		philo = &table->philos[i];
+		safe_mutex(&philo->philo_mutex, DESTROY);
+		fork = &table->forks[i];
+		safe_mutex(&fork->fork, DESTROY);
+	}
+	safe_mutex(&table->table_mutex, DESTROY);
+	safe_mutex(&table->write_mutex, DESTROY);
+	free(table->forks);
+	free(table->philos);
+}
+
+

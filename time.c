@@ -43,7 +43,7 @@ void precise_usleep(long usec, t_table table)
 		elapsed = gettime(MICROSECS) - start;
 		rem = usec - elapsed;
 		if (rem > 1000)
-			usleep(usec / 2);
+			usleep(rem / 2);
 		else
 		{
 			while (gettime(MICROSECS) - start < usec)

@@ -30,9 +30,22 @@ bool	die(t_philo *philo)
 	return (false);
 }
 
-void	think(t_philo *philo)
+void	think(t_philo *philo, bool start)
 {
-	write_status(THINKING, philo, DEBUG_MODE);
+	long	time_to_eat;
+	long	time_to_sleep;
+	long	time_to_think;
+
+	if (!start)
+		write_status(THINKING, philo, DEBUG_MODE);
+	if (philo->table->num_of_philos % 2 == 0)
+		return ;
+	time_to_eat = philo->table->time_to_eat;
+	time_to_sleep = philo->table->time_to_sleep;
+	time_to_think = time_to_eat * 2 - time_to_sleep;
+	if (time_to_think < 0)
+		time_to_think = 0;
+	precise_usleep(time_to_think * 0.40, *philo->table);
 }
 
 void	eat(t_philo *philo)
@@ -41,8 +54,8 @@ void	eat(t_philo *philo)
 	write_status(TAKE_FIRST_FORK, philo, DEBUG_MODE);
 	safe_mutex(&philo->second_fork->fork, LOCK);
 	write_status(TAKE_SECOND_FORK, philo, DEBUG_MODE);
-	set_long(&philo->philo_mutex, &philo->last_meal_time, 
-		gettime(MILLISECS));
+	set_long(&philo->philo_mutex, &philo->last_meal_time, gettime(MILLISECS));
+	incr_long(&philo->philo_mutex, &philo->meals_eaten);
 	write_status(EATING, philo, DEBUG_MODE);
 	precise_usleep(philo->table->time_to_eat, *philo->table);
 	if (philo->table->must_eat > 0 &&
@@ -60,16 +73,15 @@ void	*sim(void *data)
 	sync_thread_start(philo->table);
 	set_long(&philo->philo_mutex, &philo->last_meal_time, gettime(MILLISECS));
 	incr_long(&philo->table->table_mutex, &philo->table->num_running_threads);
+	desync_philos(philo);
 	while (!sim_finished(philo->table))
 	{
 		if (philo->full)
-		{
 			break;
-		}
 		eat(philo);
 		write_status(SLEEPING, philo, DEBUG_MODE);
 		precise_usleep(philo->table->time_to_sleep, *philo->table);
-		think(philo);
+		think(philo, false);
 	}
 	return (NULL);
 }
@@ -80,7 +92,9 @@ void	start_sim(t_table *table)
 	int	i;
 
 	i = -1;
-	if (1 == table->num_of_philos)
+	if (table->must_eat == 0)
+		return ;
+	else if (table->num_of_philos == 1)
 		safe_thread(&table->philos[0].thread_id, one_philo,
 				&table->philos[0], CREATE);
 	else
@@ -95,4 +109,6 @@ void	start_sim(t_table *table)
 	i = -1;
 	while (++i < table->num_of_philos)
 		safe_thread(&table->philos[i].thread_id, NULL, NULL, JOIN);
+	set_bool(&table->table_mutex, &table->end_sim, true);
+	safe_thread(&table->monitor, NULL, NULL, JOIN);
 }

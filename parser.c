@@ -77,13 +77,19 @@ void parse_input(t_table *table, int ac, char *av[])
 	table->time_to_die = ft_atol(av[2]) * 1000;
 	table->time_to_eat = ft_atol(av[3]) * 1000;
 	table->time_to_sleep = ft_atol(av[4]) * 1000;
+	table->must_eat = 0;
 	if (ac == 6)
-		table->must_eat = ft_atol(av[5]);
-	else
-		table->must_eat = 0;
-	if (!is_valid_range(table))
 	{
-		error_exit("Invalid input: please do not enter less than 1"
-			"or exceed INT_MAX");
+		table->must_eat = ft_atol(av[5]);
+		if (!is_valid_range(table))
+			error_exit("Invalid input: please do not enter less than 1"
+				"or exceed INT_MAX");
+	}
+	else
+	{
+		if (!is_valid_range(table))
+			error_exit("Invalid input: please do not enter less than 1"
+				"or exceed INT_MAX");
+		table->must_eat = -1;
 	}
 }

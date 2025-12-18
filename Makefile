@@ -25,7 +25,7 @@ SRCS	= 	main.c \
 			parser.c \
 			init.c \
 			utils.c \
-			safe_clean.c \
+			safe_utils.c \
 			sim.c \
 			getters_setters.c \
 			sync.c \

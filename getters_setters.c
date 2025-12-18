@@ -33,6 +33,7 @@ void	set_long(t_mtx *mutex, long *dest, long value)
 {
 	safe_mutex(mutex, LOCK);
 	*dest = value;
+	//printf("philo %d last meal time was %ld\n", philo, value - start);
 	safe_mutex(mutex, UNLOCK);
 }
 

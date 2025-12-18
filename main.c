@@ -21,7 +21,7 @@ int main(int ac, char *av[])
 		parse_input(&table, ac, av);
 		init_data(&table);
 		start_sim(&table);
-		//clean(&table);
+		clean(&table);
 	}
 	else
 	{

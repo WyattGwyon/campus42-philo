@@ -11,8 +11,7 @@
 /* ************************************************************************** */
 
 #include "philo.h"
-
-void	assign_forks(t_philo *philo, t_fork *forks, int philo_pos)
+/* void	assign_forks(t_philo *philo, t_fork *forks, int philo_pos)
 {
 	int	num_of_philos;
 
@@ -26,6 +25,21 @@ void	assign_forks(t_philo *philo, t_fork *forks, int philo_pos)
 	{
 		philo->second_fork = &forks[philo_pos];
 		philo->first_fork = &forks[(philo_pos + 1) % num_of_philos];
+	}
+}
+*/
+
+void	assign_forks(t_philo *philo, t_fork *forks, int philo_pos)
+{
+	int	num_of_philos;
+
+	num_of_philos = philo->table->num_of_philos;
+	philo->first_fork = &forks[(philo_pos + 1) % num_of_philos];
+	philo->second_fork = &forks[philo_pos];
+	if (philo_pos % 2 == 0)
+	{
+		philo->first_fork = &forks[philo_pos];
+		philo->second_fork = &forks[(philo_pos + 1) % num_of_philos];
 	}
 }
 
@@ -42,9 +56,9 @@ void	init_philo(t_table *table)
 		philo->meals_eaten = 0;
 		philo->full = false;
 		philo->table = table;
-		assign_forks(philo, table->forks, i);
 		philo->last_meal_time = 0;
 		safe_mutex(&philo->philo_mutex, INIT);
+		assign_forks(philo, table->forks, i);
 	}
 }
 

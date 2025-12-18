@@ -19,20 +19,19 @@ void	*monitor_sim(void *data)
 	
 	table = (t_table *)data;
 	while (!all_threads_running(&table->table_mutex,
-			&table->num_running_threads, &table->num_of_philos))
+			&table->num_running_threads, table->num_of_philos))
 		;
 	while (!sim_finished(table))
 	{
 		i = -1;
 		while (++i < table->num_of_philos && !sim_finished(table))
 		{
-			if (die(&table->philos[i]))
+			if (die(table->philos + i))
 			{
 				set_bool(&table->table_mutex, &table->end_sim, true);
-				write_status(DEAD, &table->philos[i], DEBUG_MODE);
+				write_status(DEAD, table->philos + i, DEBUG_MODE);
 			}
 		}
-	}
-	
+	}	
 	return (NULL);
 }
