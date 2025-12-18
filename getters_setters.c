@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:25:47 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/10 19:49:20 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/18 21:13:56 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,6 @@ void	set_long(t_mtx *mutex, long *dest, long value)
 {
 	safe_mutex(mutex, LOCK);
 	*dest = value;
-	//printf("philo %d last meal time was %ld\n", philo, value - start);
 	safe_mutex(mutex, UNLOCK);
 }
 

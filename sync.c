@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:25:47 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/10 19:49:20 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/18 21:24:06 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	sync_thread_start(t_table *table)
 
 bool	all_threads_running(t_mtx *mutex, long *threads, long num_of_philos)
 {
-	bool ret;
+	bool	ret;
 
 	ret = false;
 	safe_mutex(mutex, LOCK);
@@ -52,5 +52,3 @@ void	desync_philos(t_philo *philo)
 		}
 	}
 }
-
-

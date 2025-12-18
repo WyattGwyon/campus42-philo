@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:25:47 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/18 18:34:18 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/18 21:22:57 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,6 @@ void	think(t_philo *philo, bool start)
 	time_to_think = time_to_eat * 2 - time_to_sleep;
 	if (time_to_think < 0)
 		time_to_think = 0;
-	//precise_usleep(time_to_think * 0.40, *philo->table);
 	usleep(time_to_think * 0.40);
 }
 
@@ -58,10 +57,9 @@ void	eat(t_philo *philo)
 	set_long(&philo->philo_mutex, &philo->last_meal_time, gettime(MILLISECS));
 	incr_long(&philo->philo_mutex, &philo->meals_eaten);
 	write_status(EATING, philo, DEBUG_MODE);
-	//precise_usleep(philo->table->time_to_eat, *philo->table);
 	usleep(philo->table->time_to_eat);
-	if (philo->table->must_eat > 0 &&
-			philo->meals_eaten == philo->table->must_eat)
+	if (philo->table->must_eat > 0
+		&& philo->meals_eaten == philo->table->must_eat)
 		set_bool(&philo->philo_mutex, &philo->full, true);
 	safe_mutex(&philo->first_fork->fork, UNLOCK);
 	safe_mutex(&philo->second_fork->fork, UNLOCK);
@@ -79,16 +77,14 @@ void	*sim(void *data)
 	while (!sim_finished(philo->table))
 	{
 		if (philo->full)
-			break;
+			break ;
 		eat(philo);
 		write_status(SLEEPING, philo, DEBUG_MODE);
-		//precise_usleep(philo->table->time_to_sleep, *philo->table);
 		usleep(philo->table->time_to_sleep);
 		think(philo, false);
 	}
 	return (NULL);
 }
-
 
 void	start_sim(t_table *table)
 {
@@ -99,7 +95,7 @@ void	start_sim(t_table *table)
 		return ;
 	else if (table->num_of_philos == 1)
 		safe_thread(&table->philos[0].thread_id, one_philo,
-				&table->philos[0], CREATE);
+			&table->philos[0], CREATE);
 	else
 	{
 		while (++i < table->num_of_philos)

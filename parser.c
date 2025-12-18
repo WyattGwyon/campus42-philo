@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:35:37 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/10 19:46:01 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/18 21:19:37 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ int	ft_isdigit(int c)
 	return (c >= '0' && c <= '9');
 }
 
-int ft_isalldigit(char *c)
+int	ft_isalldigit(char *c)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (c[i])
@@ -67,10 +67,10 @@ int	is_valid_range(t_table *table)
 	return (1);
 }
 
-void parse_input(t_table *table, int ac, char *av[])
+void	parse_input(t_table *table, int ac, char *av[])
 {
 	if (!ft_isalldigit(av[1]) || !ft_isalldigit(av[2]) || \
-		!ft_isalldigit(av[3])  || !ft_isalldigit(av[4]) || \
+		!ft_isalldigit(av[3]) || !ft_isalldigit(av[4]) || \
 		(ac == 6 && !ft_isalldigit(av[5])))
 		error_exit("Invalid input: please enter only numerical args");
 	table->num_of_philos = ft_atol(av[1]);

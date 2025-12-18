@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:25:47 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/10 19:49:20 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/18 21:15:23 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	*monitor_sim(void *data)
 {
 	t_table	*table;
 	int		i;
-	
+
 	table = (t_table *)data;
 	while (!all_threads_running(&table->table_mutex,
 			&table->num_running_threads, table->num_of_philos))
@@ -32,6 +32,6 @@ void	*monitor_sim(void *data)
 				write_status(DEAD, table->philos + i, DEBUG_MODE);
 			}
 		}
-	}	
+	}
 	return (NULL);
 }

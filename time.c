@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:25:47 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/10 19:49:20 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/18 21:16:01 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,12 +24,12 @@ long	gettime(t_time time_code)
 		return ((tv.tv_sec * 1000) + (tv.tv_usec / 1000));
 	else if (time_code == MICROSECS)
 		return ((tv.tv_sec * 1000000) + tv.tv_usec);
-	else 
+	else
 		error_exit("Wrong input to gettime");
 	return (42);
-}			
+}
 
-void precise_usleep(long usec, t_table table)
+void	precise_usleep(long usec, t_table table)
 {
 	long	start;
 	long	elapsed;

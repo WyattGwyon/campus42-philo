@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 20:41:03 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/18 17:50:24 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/18 21:13:15 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ typedef pthread_mutex_t	t_mtx;
 
 typedef struct s_table	t_table;
 
-typedef enum	e_mtx_thread
+typedef enum e_mtx_thread
 {
 	CREATE,
 	JOIN,
@@ -39,14 +39,14 @@ typedef enum	e_mtx_thread
 	DESTROY,
 }	t_mtx_thread;
 
-typedef enum	e_time
+typedef enum e_time
 {
 	SECONDS,
 	MILLISECS,
 	MICROSECS,
 }	t_time;
 
-typedef enum	e_philo_status
+typedef enum e_philo_status
 {
 	EATING,
 	SLEEPING,
@@ -56,13 +56,13 @@ typedef enum	e_philo_status
 	DEAD
 }	t_philo_status;
 
-typedef struct	s_fork
+typedef struct s_fork
 {
 	t_mtx	fork;
 	int		fork_id;
 }	t_fork;
 
-typedef struct	s_philo
+typedef struct s_philo
 {
 	int			id;
 	long		meals_eaten;
@@ -75,7 +75,7 @@ typedef struct	s_philo
 	t_table		*table;
 }	t_philo;
 
-typedef struct	s_table
+typedef struct s_table
 {
 	long		num_of_philos;
 	long		time_to_die;

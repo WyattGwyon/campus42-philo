@@ -6,13 +6,13 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:25:47 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/10 19:49:20 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/18 21:14:27 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-int main(int ac, char *av[])
+int	main(int ac, char *av[])
 {
 	t_table	table;
 
@@ -26,7 +26,7 @@ int main(int ac, char *av[])
 	else
 	{
 		error_exit("Invalid Input: please enter:\n"
-				"./philo 5 800 200 200 [5]");
+			"./philo 5 800 200 200 [5]");
 	}
 	return (0);
 }

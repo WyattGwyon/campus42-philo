@@ -6,29 +6,29 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:35:37 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/18 17:51:24 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/18 21:17:54 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-void error_exit(char *error)
+void	error_exit(char *error)
 {
 	printf("%s\n", error);
 	exit(EXIT_FAILURE);
 }
 
-void write_status_debug(t_philo_status status, t_philo *philo, long elapsed)
+void	write_status_debug(t_philo_status status, t_philo *philo, long elapsed)
 {
 	if (TAKE_FIRST_FORK == status && !sim_finished(philo->table))
 		printf("%-6ld %d has taken 1st fork"
-				"\t\tno %d\n", elapsed, philo->id, philo->first_fork->fork_id);
+			"\t\tno %d\n", elapsed, philo->id, philo->first_fork->fork_id);
 	if (TAKE_SECOND_FORK == status && !sim_finished(philo->table))
 		printf("%-6ld %d has taken 2nd fork"
-				"\t\tno %d\n", elapsed, philo->id, philo->second_fork->fork_id);
+			"\t\tno %d\n", elapsed, philo->id, philo->second_fork->fork_id);
 	else if (status == EATING && !sim_finished(philo->table))
 		printf("%-6ld %d is eating"
-				"\t\t\tcnt %ld\n", elapsed, philo->id, philo->meals_eaten);
+			"\t\t\tcnt %ld\n", elapsed, philo->id, philo->meals_eaten);
 	else if (status == SLEEPING && !sim_finished(philo->table))
 		printf("%-6ld %d is sleeping\n", elapsed, philo->id);
 	else if (status == THINKING && !sim_finished(philo->table))
@@ -37,7 +37,7 @@ void write_status_debug(t_philo_status status, t_philo *philo, long elapsed)
 		printf("%-6ld %d died\n", elapsed, philo->id);
 }
 
-void write_status(t_philo_status status, t_philo *philo, bool debug)
+void	write_status(t_philo_status status, t_philo *philo, bool debug)
 {
 	long	elapsed;
 
@@ -47,7 +47,7 @@ void write_status(t_philo_status status, t_philo *philo, bool debug)
 	safe_mutex(&philo->table->write_mutex, LOCK);
 	if (debug)
 		write_status_debug(status, philo, elapsed);
-	else 
+	else
 	{
 		if ((TAKE_FIRST_FORK == status || TAKE_SECOND_FORK == status)
 			&& !sim_finished(philo->table))
@@ -63,8 +63,6 @@ void write_status(t_philo_status status, t_philo *philo, bool debug)
 	}
 	safe_mutex(&philo->table->write_mutex, UNLOCK);
 }
-
-
 
 void	clean(t_table *table)
 {
@@ -85,5 +83,3 @@ void	clean(t_table *table)
 	free(table->forks);
 	free(table->philos);
 }
-
-
