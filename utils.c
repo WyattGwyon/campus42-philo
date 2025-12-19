@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:35:37 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/18 21:17:54 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/19 21:20:34 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ void	write_status(t_philo_status status, t_philo *philo, bool debug)
 	long	elapsed;
 
 	elapsed = gettime(MILLISECS) - philo->table->sim_start_time;
-	if (philo->full)
+	if (get_bool(&philo->philo_mutex, &philo->full))
 		return ;
 	safe_mutex(&philo->table->write_mutex, LOCK);
 	if (debug)

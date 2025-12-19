@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:35:37 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/18 21:19:37 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/19 21:30:19 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,9 +74,9 @@ void	parse_input(t_table *table, int ac, char *av[])
 		(ac == 6 && !ft_isalldigit(av[5])))
 		error_exit("Invalid input: please enter only numerical args");
 	table->num_of_philos = ft_atol(av[1]);
-	table->time_to_die = ft_atol(av[2]) * 1000;
-	table->time_to_eat = ft_atol(av[3]) * 1000;
-	table->time_to_sleep = ft_atol(av[4]) * 1000;
+	table->time_to_die = ft_atol(av[2]);
+	table->time_to_eat = ft_atol(av[3]);
+	table->time_to_sleep = ft_atol(av[4]);
 	table->must_eat = 0;
 	if (ac == 6)
 	{

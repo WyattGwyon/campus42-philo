@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:25:47 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/18 21:24:06 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/19 19:50:20 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ void	desync_philos(t_philo *philo)
 	{
 		if (philo->id % 2 == 0)
 		{
-			precise_usleep(30000, *philo->table);
+			usleep(30 * 1000);
 		}
 		else
 		{

@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 20:41:03 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/18 21:13:15 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/19 20:12:46 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 # include <limits.h>
 # include <errno.h>
 
-# define DEBUG_MODE 1
+# define DEBUG_MODE 0
 
 typedef pthread_mutex_t	t_mtx;
 

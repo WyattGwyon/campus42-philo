@@ -6,7 +6,7 @@
 /*   By: clouden <clouden@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 18:25:47 by clouden           #+#    #+#             */
-/*   Updated: 2025/12/18 21:22:57 by clouden          ###   ########.fr       */
+/*   Updated: 2025/12/19 21:31:12 by clouden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ bool	die(t_philo *philo)
 	now = gettime(MILLISECS);
 	last_meal_time = get_long(&philo->philo_mutex, &philo->last_meal_time);
 	elapsed = now - last_meal_time;
-	time_to_die = philo->table->time_to_die / 1000;
+	time_to_die = philo->table->time_to_die;
 	if (elapsed > time_to_die)
 		return (true);
 	return (false);
@@ -45,7 +45,7 @@ void	think(t_philo *philo, bool start)
 	time_to_think = time_to_eat * 2 - time_to_sleep;
 	if (time_to_think < 0)
 		time_to_think = 0;
-	usleep(time_to_think * 0.40);
+	usleep((time_to_think * 1000) * 0.30);
 }
 
 void	eat(t_philo *philo)
@@ -57,7 +57,7 @@ void	eat(t_philo *philo)
 	set_long(&philo->philo_mutex, &philo->last_meal_time, gettime(MILLISECS));
 	incr_long(&philo->philo_mutex, &philo->meals_eaten);
 	write_status(EATING, philo, DEBUG_MODE);
-	usleep(philo->table->time_to_eat);
+	usleep(philo->table->time_to_eat * 1000);
 	if (philo->table->must_eat > 0
 		&& philo->meals_eaten == philo->table->must_eat)
 		set_bool(&philo->philo_mutex, &philo->full, true);
@@ -80,7 +80,7 @@ void	*sim(void *data)
 			break ;
 		eat(philo);
 		write_status(SLEEPING, philo, DEBUG_MODE);
-		usleep(philo->table->time_to_sleep);
+		usleep(philo->table->time_to_sleep * 1000);
 		think(philo, false);
 	}
 	return (NULL);
